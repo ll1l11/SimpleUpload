@@ -1,7 +1,7 @@
 from distutils.core import setup
 
 setup(
-    name='HTTPUploadFile',
+    name='SimpleUpload',
     version='0.0.1',
     packages=['simple_upload'],
     url='https://github.com/codeif/SimpleUpload',
