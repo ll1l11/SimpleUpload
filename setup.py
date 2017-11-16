@@ -9,7 +9,7 @@ with open('README.rst') as f:
 setup(
     name='SimpleUpload',
     version='0.0.3',
-    description='Upload file via HTTP.',
+    description='A HTTP Server for upload file.',
     long_description=readme,
     packages=['simple_upload'],
     url='https://github.com/codeif/SimpleUpload',
