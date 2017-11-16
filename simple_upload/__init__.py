@@ -56,6 +56,7 @@ class UploadExtension(object):
             msg = 'File {} not starts with {}'.format(path, self.client_prefix)
             raise UploadError(msg)
         server_path = self.server_prefix + path[len(self.client_prefix):]
+        f.save(server_path)
         msg = 'Save success! local-{}, server-{}'.format(path, server_path)
         self.logger.warn(msg)
         return msg
