@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-from distutils.core import setup
+from setuptools import setup
 
 
 with open('README.rst') as f:
@@ -8,7 +8,7 @@ with open('README.rst') as f:
 
 setup(
     name='SimpleUpload',
-    version='0.0.2',
+    version='0.0.3',
     description='Upload file via HTTP.',
     long_description=readme,
     packages=['simple_upload'],
