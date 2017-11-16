@@ -6,13 +6,13 @@ SimpleUpload
     pip install SimpleUpload
 
 
-服务端需要安装Flask和gunicorn::
-
-    pip install Flask gunicorn
-
 使用环境变量指定配置文件的位置::
 
     export SIMPLE_UPLOAD_SETTINGS="{path}/simple_upload.cfg"
+
+可以使用unicorn运行，安装unicorn::
+
+    pip install unicorn
 
 启动::
 
